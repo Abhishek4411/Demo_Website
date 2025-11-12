@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Skylus Workspaces - Get started with a demo or consultation. Our team is ready to help transform your workspace delivery.">
+    <title>Contact Us - Skylus Workspaces</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="loading">
+    <div class="page-loader"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Skylus<span>Workspaces</span></a>
+            <button class="mobile-menu-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="platform.html" class="nav-link">Platform</a></li>
+                <li><a href="solutions.html" class="nav-link">Solutions</a></li>
+                <li><a href="security.html" class="nav-link">Security</a></li>
+                <li><a href="industries.html" class="nav-link">Industries</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+                <li><button class="theme-toggle" aria-label="Toggle theme"><span class="theme-toggle-icon">🌙</span><span class="theme-toggle-text">Dark</span></button></li>
+                <li><a href="contact.html" class="btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="index.html" class="breadcrumb-link">Home</a>
+            <span class="breadcrumb-separator">/</span>
+            <span class="breadcrumb-current">Contact</span>
+        </div>
+    </div>
+
+    <section class="hero" style="min-height: 70vh; padding: 100px 2rem 80px;">
+        <div class="hero-container" style="grid-template-columns: 1fr;">
+            <div class="hero-content" style="text-align: center; max-width: 900px; margin: 0 auto;">
+                <h1>Get Started with Skylus Workspaces</h1>
+                <p class="tagline">Ready to Transform Your Workspace?</p>
+                <p>Contact our team to schedule a personalized demo, discuss your requirements, or request a quote. We're here to help you succeed.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start;">
+                <div>
+                    <div class="section-header" style="text-align: left;">
+                        <div class="section-subtitle">Contact Form</div>
+                        <h2 class="section-title" style="font-size: 2.25rem;">Send Us a Message</h2>
+                        <p class="section-description" style="margin: 0;">Fill out the form and our team will get back to you within 24 hours.</p>
+                    </div>
+
+                    <form id="contactForm" style="margin-top: 2rem;">
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);" for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 6px; font-size: 1rem; transition: all 0.3s ease; font-family: inherit;">
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);" for="email">Business Email *</label>
+                            <input type="email" id="email" name="email" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 6px; font-size: 1rem; transition: all 0.3s ease; font-family: inherit;">
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);" for="company">Company Name *</label>
+                            <input type="text" id="company" name="company" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 6px; font-size: 1rem; transition: all 0.3s ease; font-family: inherit;">
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);" for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 6px; font-size: 1rem; transition: all 0.3s ease; font-family: inherit;">
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);" for="industry">Industry *</label>
+                            <select id="industry" name="industry" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 6px; font-size: 1rem; transition: all 0.3s ease; font-family: inherit;">
+                                <option value="">Select your industry</option>
+                                <option value="financial">Financial Services</option>
+                                <option value="education">Education</option>
+                                <option value="healthcare">Healthcare & Life Sciences</option>
+                                <option value="government">Government & Defense</option>
+                                <option value="manufacturing">Retail & Manufacturing</option>
+                                <option value="energy">Energy & Industrial</option>
+                                <option value="technology">Technology</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);" for="users">Estimated Number of Users *</label>
+                            <select id="users" name="users" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 6px; font-size: 1rem; transition: all 0.3s ease; font-family: inherit;">
+                                <option value="">Select range</option>
+                                <option value="1-50">1-50</option>
+                                <option value="51-200">51-200</option>
+                                <option value="201-500">201-500</option>
+                                <option value="501-1000">501-1,000</option>
+                                <option value="1001-5000">1,001-5,000</option>
+                                <option value="5000+">5,000+</option>
+                            </select>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);" for="interest">I'm Interested In *</label>
+                            <select id="interest" name="interest" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 6px; font-size: 1rem; transition: all 0.3s ease; font-family: inherit;">
+                                <option value="">Select an option</option>
+                                <option value="demo">Schedule a Demo</option>
+                                <option value="trial">Start a Trial</option>
+                                <option value="quote">Request a Quote</option>
+                                <option value="consultation">Technical Consultation</option>
+                                <option value="migration">Migration Planning</option>
+                                <option value="partnership">Partnership Opportunities</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div style="margin-bottom: 1.5rem;">
+                            <label style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: var(--text-dark);" for="message">Tell us about your project *</label>
+                            <textarea id="message" name="message" rows="5" required style="width: 100%; padding: 0.875rem; border: 2px solid var(--border-color); border-radius: 6px; font-size: 1rem; transition: all 0.3s ease; font-family: inherit; resize: vertical; min-height: 120px;"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary" style="width: 100%; padding: 1rem; font-size: 1.125rem;">Submit Request</button>
+                    </form>
+                </div>
+
+                <div>
+                    <div style="background: var(--light-bg); padding: 2.5rem; border-radius: 12px; margin-bottom: 2rem; border: 1px solid var(--border-color);">
+                        <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;">Quick Links</h3>
+                        <div style="margin-bottom: 2rem;">
+                            <h4 style="font-weight: 600; margin-bottom: 0.5rem;">Schedule a Demo</h4>
+                            <p style="color: var(--text-gray); margin-bottom: 1rem;">See Skylus Workspaces in action with a personalized demonstration tailored to your needs.</p>
+                            <a href="#" class="btn-secondary">Book Demo</a>
+                        </div>
+                        <div style="margin-bottom: 2rem;">
+                            <h4 style="font-weight: 600; margin-bottom: 0.5rem;">Start a Free Trial</h4>
+                            <p style="color: var(--text-gray); margin-bottom: 1rem;">Try Skylus Workspaces risk-free for 30 days with full access to all features.</p>
+                            <a href="#" class="btn-secondary">Start Trial</a>
+                        </div>
+                        <div>
+                            <h4 style="font-weight: 600; margin-bottom: 0.5rem;">Technical Documentation</h4>
+                            <p style="color: var(--text-gray); margin-bottom: 1rem;">Access comprehensive technical documentation, API references, and integration guides.</p>
+                            <a href="resources.html" class="btn-secondary">View Docs</a>
+                        </div>
+                    </div>
+
+                    <div style="background: var(--dark-bg); padding: 2.5rem; border-radius: 12px; color: var(--text-light);">
+                        <h3 style="font-size: 1.5rem; font-weight: 700; margin-bottom: 1.5rem;">Contact Information</h3>
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="font-weight: 600; margin-bottom: 0.5rem;">Sales</h4>
+                            <p style="opacity: 0.9;"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d7a4b6bbb2a497a4bcaebba2a4a0b8a5bca4a7b6b4b2a4f9b4b8ba">[email&#160;protected]</a></p>
+                            <p style="opacity: 0.9;">+91-129-2310400</p>
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <h4 style="font-weight: 600; margin-bottom: 0.5rem;">Support</h4>
+                            <p style="opacity: 0.9;"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="2d5e585d5d425f596d5e465441585e5a425f465e5d4c4e485e034e4240">[email&#160;protected]</a></p>
+                            <p style="opacity: 0.9;">24/7 Support Available</p>
+                            <p style="opacity: 0.9;">FAX: +91-129-2310400</p>
+                        </div>
+                        <div>
+                            <h4 style="font-weight: 600; margin-bottom: 0.5rem;">Headquarters</h4>
+                            <p style="opacity: 0.9;">Plot No-H1, Pocket-9</p>
+                            <p style="opacity: 0.9;">Faridabad Industrial Town (FIT), Sector-57</p>
+                            <p style="opacity: 0.9;">Faridabad, Ballabgarh, Haryana - 121004, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-subtitle">Why Choose Skylus</div>
+                <h2 class="section-title">Join Thousands of Organizations</h2>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number" data-count="50000">0</div>
+                    <div class="stat-label">Active Users</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="150">0</div>
+                    <div class="stat-label">+ Enterprise Customers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="99">0</div>
+                    <div class="stat-label">% Customer Satisfaction</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" data-count="24">0</div>
+                    <div class="stat-label">/7 Global Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">Skylus<span>Workspaces</span></div>
+                <p class="footer-description">Transform your workspace delivery with secure, high-performance streaming. Container-native architecture built for the modern workforce.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Platform</h4>
+                <ul class="footer-links">
+                    <li><a href="platform.html">Overview</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="security.html">Security</a></li>
+                    <li><a href="platform.html#architecture">Architecture</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Industries</h4>
+                <ul class="footer-links">
+                    <li><a href="industries.html#financial">Financial Services</a></li>
+                    <li><a href="industries.html#education">Education</a></li>
+                    <li><a href="industries.html#healthcare">Healthcare</a></li>
+                    <li><a href="industries.html#government">Government</a></li>
+                    <li><a href="industries.html#manufacturing">Manufacturing</a></li>
+                    <li><a href="industries.html#energy">Energy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="resources.html">Documentation</a></li>
+                    <li><a href="resources.html#case-studies">Case Studies</a></li>
+                    <li><a href="resources.html#whitepapers">Whitepapers</a></li>
+                    <li><a href="resources.html#webinars">Webinars</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Skylus Workspaces. All rights reserved. Container-native. Zero-Trust secure.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <noscript>
+        <style>
+            .page-loader { display: none !important; }
+            body.loading { overflow: auto !important; }
+        </style>
+        <div style="padding: 20px; text-align: center; background: #fff3cd; color: #856404; margin: 20px;">
+            JavaScript is required for the best experience. Please enable JavaScript in your browser.
+        </div>
+    </noscript>
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>

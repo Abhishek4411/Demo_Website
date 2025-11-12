@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skylus Workspaces Solutions - Cloud Desktops, Browser Isolation, App Streaming, and Secure Remote Access.">
+    <title>Solutions - Skylus Workspaces</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="loading">
+    <div class="page-loader"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Skylus<span>Workspaces</span></a>
+            <button class="mobile-menu-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="platform.html" class="nav-link">Platform</a></li>
+                <li><a href="solutions.html" class="nav-link">Solutions</a></li>
+                <li><a href="security.html" class="nav-link">Security</a></li>
+                <li><a href="industries.html" class="nav-link">Industries</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+                <li><button class="theme-toggle" aria-label="Toggle theme"><span class="theme-toggle-icon">🌙</span><span class="theme-toggle-text">Dark</span></button></li>
+                <li><a href="contact.html" class="btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="index.html" class="breadcrumb-link">Home</a>
+            <span class="breadcrumb-separator">/</span>
+            <span class="breadcrumb-current">Solutions</span>
+        </div>
+    </div>
+
+    <section class="hero" style="min-height: 70vh; padding: 100px 2rem 80px;">
+        <div class="hero-container" style="grid-template-columns: 1fr;">
+            <div class="hero-content" style="text-align: center; max-width: 900px; margin: 0 auto;">
+                <h1>Complete Workspace Solutions</h1>
+                <p class="tagline">Cloud Desktops. Browser Isolation. App Streaming. Secure Access.</p>
+                <p>From cloud desktops to browser isolation, we've got your entire workspace stack covered. Choose the solutions that fit your needs or deploy them all.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-subtitle">Solutions</div>
+                <h2 class="section-title">Explore Our Solutions</h2>
+            </div>
+
+            <div class="features-grid" style="gap: 3rem;">
+                <div class="feature-card" style="cursor: pointer;" data-fade>
+                    <div class="placeholder-image" style="height: 200px; margin-bottom: 1.5rem;">assets/images/solutions/cloud-desktops-preview.png</div>
+                    <div class="feature-icon" style="width: 48px; height: 48px; font-size: 1.5rem;">💻</div>
+                    <h3 class="feature-title">Cloud Desktops on Demand</h3>
+                    <p class="feature-description">Windows and Linux workspaces that launch in seconds, scale elastically, and keep corporate data in the data center.</p>
+                    <a href="#cloud-desktops" class="feature-link">View Details →</a>
+                </div>
+
+                <div class="feature-card" style="cursor: pointer;" data-fade>
+                    <div class="placeholder-image" style="height: 200px; margin-bottom: 1.5rem;">assets/images/solutions/browser-isolation-preview.png</div>
+                    <div class="feature-icon" style="width: 48px; height: 48px; font-size: 1.5rem;">🌐</div>
+                    <h3 class="feature-title">Browser Isolation</h3>
+                    <p class="feature-description">Execute web code remotely in containers. Endpoints receive only safe pixel streams, protecting against malware.</p>
+                    <a href="#browser-isolation" class="feature-link">View Details →</a>
+                </div>
+
+                <div class="feature-card" style="cursor: pointer;" data-fade>
+                    <div class="placeholder-image" style="height: 200px; margin-bottom: 1.5rem;">assets/images/solutions/app-streaming-preview.png</div>
+                    <div class="feature-icon" style="width: 48px; height: 48px; font-size: 1.5rem;">📱</div>
+                    <h3 class="feature-title">App Streaming</h3>
+                    <p class="feature-description">Stream legacy and GPU-accelerated apps. Support Flash-era tools and modern 3D applications with zero endpoint risk.</p>
+                    <a href="#app-streaming" class="feature-link">View Details →</a>
+                </div>
+
+                <div class="feature-card" style="cursor: pointer;" data-fade>
+                    <div class="placeholder-image" style="height: 200px; margin-bottom: 1.5rem;">assets/images/solutions/secure-access-preview.png</div>
+                    <div class="feature-icon" style="width: 48px; height: 48px; font-size: 1.5rem;">🔐</div>
+                    <h3 class="feature-title">Secure Remote Access</h3>
+                    <p class="feature-description">Replace VPN sprawl with Zero-Trust Network Access. Policy-based controls with complete audit trails.</p>
+                    <a href="#secure-access" class="feature-link">View Details →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light" id="cloud-desktops">
+        <div class="section-container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div>
+                    <div class="section-subtitle">Solution</div>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; font-weight: 800;">Cloud Desktops on Demand</h2>
+                    <p style="font-size: 1.125rem; color: var(--text-gray); line-height: 1.8; margin-bottom: 2rem;">Windows and Linux workspaces that launch in seconds, scale elastically, and keep corporate data in the data center or VPC—never on personal devices.</p>
+                    
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700;">Key Features</h3>
+                    <ul style="list-style: none; margin-bottom: 2rem;">
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Instant provisioning in under 10 seconds
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Full Windows and Linux desktop environments
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Persistent user profiles and settings
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Multi-session support for collaboration
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            GPU-accelerated workspaces available
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Integrated DLP and compliance controls
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="btn-primary">Get Started</a>
+                </div>
+                <div>
+                    <div class="placeholder-video" style="height: 500px;">assets/videos/cloud-desktops-demo.mp4</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="browser-isolation">
+        <div class="section-container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div>
+                    <div class="placeholder-video" style="height: 500px;">assets/videos/browser-isolation-demo.mp4</div>
+                </div>
+                <div>
+                    <div class="section-subtitle">Solution</div>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; font-weight: 800;">Browser Isolation & Enterprise Browsers</h2>
+                    <p style="font-size: 1.125rem; color: var(--text-gray); line-height: 1.8; margin-bottom: 2rem;">Let users browse freely while web code runs in isolated containers. Endpoints get a safe rendering; malware has nowhere to land.</p>
+                    
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700;">Key Features</h3>
+                    <ul style="list-style: none; margin-bottom: 2rem;">
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Remote browser execution in secure containers
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Zero malware risk to endpoints
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Policy-driven extension management
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Data loss prevention built-in
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Seamless user experience
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Compatible with all major websites
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light" id="app-streaming">
+        <div class="section-container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div>
+                    <div class="section-subtitle">Solution</div>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; font-weight: 800;">App Streaming for Legacy & Modern Apps</h2>
+                    <p style="font-size: 1.125rem; color: var(--text-gray); line-height: 1.8; margin-bottom: 2rem;">Run legacy apps including Flash-era tools and modern GPU-accelerated workflows in secured containers. Stream the UI; never ship the risk.</p>
+                    
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700;">Key Features</h3>
+                    <ul style="list-style: none; margin-bottom: 2rem;">
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Support for legacy applications
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            GPU-accelerated rendering
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            CAD and design tool streaming
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            No client installation required
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Cross-platform compatibility
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            High-performance streaming protocol
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="btn-primary">Get Started</a>
+                </div>
+                <div>
+                    <div class="placeholder-video" style="height: 500px;">assets/videos/app-streaming-demo.mp4</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="secure-access">
+        <div class="section-container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center;">
+                <div>
+                    <div class="placeholder-video" style="height: 500px;">assets/videos/secure-access-demo.mp4</div>
+                </div>
+                <div>
+                    <div class="section-subtitle">Solution</div>
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; font-weight: 800;">Secure Remote Access (ZTNA-Style)</h2>
+                    <p style="font-size: 1.125rem; color: var(--text-gray); line-height: 1.8; margin-bottom: 2rem;">A controlled gateway between internal systems and the outside world. Replace risky VPN sprawl with segmented, policy-checked access—audited end-to-end.</p>
+                    
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem; font-weight: 700;">Key Features</h3>
+                    <ul style="list-style: none; margin-bottom: 2rem;">
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Zero-Trust Network Access model
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Replace legacy VPN infrastructure
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Granular access controls
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Complete audit trails
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Multi-factor authentication
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700;">✓</span>
+                            Conditional access policies
+                        </li>
+                    </ul>
+                    <a href="contact.html" class="btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-gradient">
+        <div class="section-container">
+            <div style="text-align: center; max-width: 900px; margin: 0 auto;">
+                <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 1.5rem; color: var(--text-light);">Ready to Get Started?</h2>
+                <p style="font-size: 1.25rem; margin-bottom: 2.5rem; opacity: 0.95; line-height: 1.8; color: var(--text-light);">Choose the solutions that fit your needs or deploy them all. Contact us to discuss your requirements and get a personalized demo.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="contact.html" class="btn-primary" style="padding: 1rem 2rem; font-size: 1.125rem;">Schedule Demo</a>
+                    <a href="resources.html" class="btn-outline-light" style="padding: 1rem 2rem; font-size: 1.125rem;">View Case Studies</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">Skylus<span>Workspaces</span></div>
+                <p class="footer-description">Transform your workspace delivery with secure, high-performance streaming. Container-native architecture built for the modern workforce.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Platform</h4>
+                <ul class="footer-links">
+                    <li><a href="platform.html">Overview</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="security.html">Security</a></li>
+                    <li><a href="platform.html#architecture">Architecture</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Industries</h4>
+                <ul class="footer-links">
+                    <li><a href="industries.html#financial">Financial Services</a></li>
+                    <li><a href="industries.html#education">Education</a></li>
+                    <li><a href="industries.html#healthcare">Healthcare</a></li>
+                    <li><a href="industries.html#government">Government</a></li>
+                    <li><a href="industries.html#manufacturing">Manufacturing</a></li>
+                    <li><a href="industries.html#energy">Energy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="resources.html">Documentation</a></li>
+                    <li><a href="resources.html#case-studies">Case Studies</a></li>
+                    <li><a href="resources.html#whitepapers">Whitepapers</a></li>
+                    <li><a href="resources.html#webinars">Webinars</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Skylus Workspaces. All rights reserved. Container-native. Zero-Trust secure.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <noscript>
+        <style>
+            .page-loader { display: none !important; }
+            body.loading { overflow: auto !important; }
+        </style>
+        <div style="padding: 20px; text-align: center; background: #fff3cd; color: #856404; margin: 20px;">
+            JavaScript is required for the best experience. Please enable JavaScript in your browser.
+        </div>
+    </noscript>
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>

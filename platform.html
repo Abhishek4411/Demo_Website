@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skylus Workspaces Platform. Fast, secure, and scalable workspace delivery.">
+    <title>Platform - Skylus Workspaces</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="loading">
+    <div class="page-loader"></div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">Skylus<span>Workspaces</span></a>
+            <button class="mobile-menu-toggle">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="platform.html" class="nav-link">Platform</a></li>
+                <li><a href="solutions.html" class="nav-link">Solutions</a></li>
+                <li><a href="security.html" class="nav-link">Security</a></li>
+                <li><a href="industries.html" class="nav-link">Industries</a></li>
+                <li><a href="resources.html" class="nav-link">Resources</a></li>
+                <li><button class="theme-toggle" aria-label="Toggle theme"><span class="theme-toggle-icon">🌙</span><span class="theme-toggle-text">Dark</span></button></li>
+                <li><a href="contact.html" class="btn-primary">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="breadcrumb">
+        <div class="breadcrumb-container">
+            <a href="index.html" class="breadcrumb-link">Home</a>
+            <span class="breadcrumb-separator">/</span>
+            <span class="breadcrumb-current">Platform</span>
+        </div>
+    </div>
+
+    <section class="hero" style="min-height: 70vh; padding: 100px 2rem 80px;">
+        <div class="hero-container" style="grid-template-columns: 1fr;">
+            <div class="hero-content" style="text-align: center; max-width: 900px; margin: 0 auto;">
+                <h1>The Skylus Workspaces Platform</h1>
+                <p class="tagline">Container-Native. Zero-Trust. Cloud-Ready.</p>
+                <p>A reimagined, browser-first workspace platform that replaces legacy VDI and risky VPN sprawl with container-based creation and policy-driven security.</p>
+                <div class="hero-buttons" style="justify-content: center;">
+                    <a href="contact.html" class="btn-primary">Request Demo</a>
+                    <a href="#architecture" class="btn-outline-light">View Architecture</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-subtitle">How It Works</div>
+                <h2 class="section-title">Why Containers Win</h2>
+                <p class="section-description">Containers package apps and dependencies and start far faster than full VMs, so users hit Launch and get to work in seconds.</p>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; margin-top: 3rem;">
+                <div>
+                    <div class="placeholder-image" style="height: 400px;">assets/images/platform/container-architecture.png</div>
+                </div>
+                <div>
+                    <h3 style="font-size: 2rem; margin-bottom: 1.5rem; font-weight: 700;">Container-Based Creation</h3>
+                    <p style="color: var(--text-gray); line-height: 1.8; margin-bottom: 1.5rem; font-size: 1.0625rem;">Container tasks avoid VM provisioning delays and benefit from image caching for even faster subsequent starts. Scale elastically across clusters or regions; run dozens of secured workspaces per node where VMs would run only a few.</p>
+                    <ul style="list-style: none; margin: 2rem 0;">
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700; font-size: 1.25rem;">✓</span>
+                            Instant provisioning under 10 seconds
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700; font-size: 1.25rem;">✓</span>
+                            10x higher density than traditional VMs
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700; font-size: 1.25rem;">✓</span>
+                            Elastic scaling on Kubernetes and ECS
+                        </li>
+                        <li style="padding: 0.75rem 0; padding-left: 2rem; position: relative; color: var(--text-gray);">
+                            <span style="position: absolute; left: 0; color: var(--success-color); font-weight: 700; font-size: 1.25rem;">✓</span>
+                            Efficient resource utilization
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-light">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-subtitle">Platform Capabilities</div>
+                <h2 class="section-title">Enterprise-Grade Features</h2>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card" data-fade>
+                    <div class="feature-icon">🚀</div>
+                    <h3 class="feature-title">Rapid Provisioning</h3>
+                    <p class="feature-description">Accelerated provisioning for bursty teams and global contractors. Image caching and pre-warmed pools ensure instant workspace availability.</p>
+                </div>
+
+                <div class="feature-card" data-fade>
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Real-Time Monitoring</h3>
+                    <p class="feature-description">Comprehensive dashboards for resource utilization, user activity, and system health. Proactive alerts and automated remediation.</p>
+                </div>
+
+                <div class="feature-card" data-fade>
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">Auto-Scaling</h3>
+                    <p class="feature-description">Automatically scale workspace capacity based on demand. Handle peak loads without manual intervention or over-provisioning.</p>
+                </div>
+
+                <div class="feature-card" data-fade>
+                    <div class="feature-icon">💾</div>
+                    <h3 class="feature-title">Persistent Profiles</h3>
+                    <p class="feature-description">User settings, files, and configurations persist across sessions. Seamless experience from any device, anywhere.</p>
+                </div>
+
+                <div class="feature-card" data-fade>
+                    <div class="feature-icon">🔗</div>
+                    <h3 class="feature-title">API-First Design</h3>
+                    <p class="feature-description">Comprehensive REST APIs for automation, integration, and custom workflows. Manage workspaces programmatically.</p>
+                </div>
+
+                <div class="feature-card" data-fade>
+                    <div class="feature-icon">🌍</div>
+                    <h3 class="feature-title">Global Deployment</h3>
+                    <p class="feature-description">Deploy across multiple regions for low-latency access worldwide. Automatic routing to nearest endpoint.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="architecture">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-subtitle">Architecture</div>
+                <h2 class="section-title">Built on Modern Cloud Infrastructure</h2>
+                <p class="section-description">Open, API-first architecture. Works across ECS, EKS, Fargate, and on-premises Kubernetes.</p>
+            </div>
+
+            <div style="margin-top: 3rem;">
+                <div class="placeholder-image" style="height: 500px; margin-bottom: 3rem;">assets/images/platform/skylus-architecture-diagram.png</div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; margin-top: 3rem;">
+                <div style="background: var(--light-bg); padding: 2rem; border-radius: 12px; text-align: center; border: 1px solid var(--border-color);">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">☁️</div>
+                    <strong style="display: block; color: var(--primary-color); font-size: 1rem; font-weight: 700;">AWS ECS</strong>
+                    <p style="color: var(--text-gray); font-size: 0.9375rem; margin-top: 0.5rem;">Container orchestration</p>
+                </div>
+                <div style="background: var(--light-bg); padding: 2rem; border-radius: 12px; text-align: center; border: 1px solid var(--border-color);">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">⚙️</div>
+                    <strong style="display: block; color: var(--primary-color); font-size: 1rem; font-weight: 700;">AWS EKS</strong>
+                    <p style="color: var(--text-gray); font-size: 0.9375rem; margin-top: 0.5rem;">Managed Kubernetes</p>
+                </div>
+                <div style="background: var(--light-bg); padding: 2rem; border-radius: 12px; text-align: center; border: 1px solid var(--border-color);">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">📦</div>
+                    <strong style="display: block; color: var(--primary-color); font-size: 1rem; font-weight: 700;">AWS Fargate</strong>
+                    <p style="color: var(--text-gray); font-size: 0.9375rem; margin-top: 0.5rem;">Serverless compute</p>
+                </div>
+                <div style="background: var(--light-bg); padding: 2rem; border-radius: 12px; text-align: center; border: 1px solid var(--border-color);">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">💽</div>
+                    <strong style="display: block; color: var(--primary-color); font-size: 1rem; font-weight: 700;">Amazon S3</strong>
+                    <p style="color: var(--text-gray); font-size: 0.9375rem; margin-top: 0.5rem;">Object storage</p>
+                </div>
+                <div style="background: var(--light-bg); padding: 2rem; border-radius: 12px; text-align: center; border: 1px solid var(--border-color);">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">🗄️</div>
+                    <strong style="display: block; color: var(--primary-color); font-size: 1rem; font-weight: 700;">Amazon EFS</strong>
+                    <p style="color: var(--text-gray); font-size: 0.9375rem; margin-top: 0.5rem;">File storage</p>
+                </div>
+                <div style="background: var(--light-bg); padding: 2rem; border-radius: 12px; text-align: center; border: 1px solid var(--border-color);">
+                    <div style="font-size: 2rem; margin-bottom: 1rem;">🔐</div>
+                    <strong style="display: block; color: var(--primary-color); font-size: 1rem; font-weight: 700;">AWS IAM</strong>
+                    <p style="color: var(--text-gray); font-size: 0.9375rem; margin-top: 0.5rem;">Identity management</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-dark">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-subtitle" style="color: var(--accent-color);">Comparison</div>
+                <h2 class="section-title" style="color: var(--text-light);">Skylus vs Traditional VDI</h2>
+                <p class="section-description" style="color: rgba(255, 255, 255, 0.8);">See how container-native architecture delivers superior performance, security, and cost efficiency.</p>
+            </div>
+
+            <div class="comparison-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Feature</th>
+                            <th>Traditional VDI</th>
+                            <th>Skylus Workspaces</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Provisioning Time</strong></td>
+                            <td style="color: var(--danger-color);">5-15 minutes</td>
+                            <td style="color: var(--success-color); font-weight: 600;">Under 10 seconds</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Resource Density</strong></td>
+                            <td style="color: var(--danger-color);">Low (VMs)</td>
+                            <td style="color: var(--success-color); font-weight: 600;">High (Containers)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Endpoint Requirements</strong></td>
+                            <td style="color: var(--danger-color);">Agent required</td>
+                            <td style="color: var(--success-color); font-weight: 600;">Browser only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Security Model</strong></td>
+                            <td style="color: var(--danger-color);">Perimeter-based</td>
+                            <td style="color: var(--success-color); font-weight: 600;">Zero-Trust</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Scalability</strong></td>
+                            <td style="color: var(--danger-color);">Limited</td>
+                            <td style="color: var(--success-color); font-weight: 600;">Elastic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Cost Structure</strong></td>
+                            <td style="color: var(--danger-color);">High CapEx</td>
+                            <td style="color: var(--success-color); font-weight: 600;">OpEx, pay-per-use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Maintenance</strong></td>
+                            <td style="color: var(--danger-color);">Complex</td>
+                            <td style="color: var(--success-color); font-weight: 600;">Automated</td>
+                        </tr>
+                        <tr>
+                            <td><strong>User Experience</strong></td>
+                            <td style="color: var(--danger-color);">Variable latency</td>
+                            <td style="color: var(--success-color); font-weight: 600;">Optimized streaming</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-container">
+            <div class="section-header">
+                <div class="section-subtitle">Deployment Options</div>
+                <h2 class="section-title">Flexible Deployment Models</h2>
+                <p class="section-description">Choose the deployment model that fits your requirements and infrastructure.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card" data-fade>
+                    <h3 class="feature-title">☁️ Cloud-Native SaaS</h3>
+                    <p class="feature-description">Zero maintenance, automatic updates, global availability. Get started in minutes.</p>
+                    <ul style="list-style: none; margin-top: 1.5rem;">
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ Instant setup</li>
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ No infrastructure management</li>
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ Automatic scaling</li>
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ Pay-per-use pricing</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card" data-fade>
+                    <h3 class="feature-title">🏢 Private Cloud</h3>
+                    <p class="feature-description">Full control over infrastructure, data residency, and compliance requirements.</p>
+                    <ul style="list-style: none; margin-top: 1.5rem;">
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ Your AWS account</li>
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ Complete data control</li>
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ Custom networking</li>
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ Regulatory compliance</li>
+                    </ul>
+                </div>
+
+                <div class="feature-card" data-fade>
+                    <h3 class="feature-title">🔒 On-Premises</h3>
+                    <p class="feature-description">Deploy on your own Kubernetes clusters. Air-gapped environments supported. Full offline capability with local image registry.</p>
+                    <ul style="list-style: none; margin-top: 1.5rem;">
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ On-prem Kubernetes</li>
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ Air-gap support</li>
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ Maximum control</li>
+                        <li style="padding: 0.5rem 0; color: var(--text-gray);">✓ Zero cloud dependency</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section bg-gradient">
+        <div class="section-container">
+            <div style="text-align: center; max-width: 900px; margin: 0 auto;">
+                <h2 style="font-size: 3rem; font-weight: 800; margin-bottom: 1.5rem; color: var(--text-light);">Experience the Platform</h2>
+                <p style="font-size: 1.25rem; margin-bottom: 2.5rem; opacity: 0.95; line-height: 1.8; color: var(--text-light);">See Skylus Workspaces in action. Request a personalized demo and discover how our container-native platform can transform your workspace delivery.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="contact.html" class="btn-primary" style="padding: 1rem 2rem; font-size: 1.125rem;">Request Demo</a>
+                    <a href="resources.html" class="btn-outline-light" style="padding: 1rem 2rem; font-size: 1.125rem;">Technical Docs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">Skylus<span>Workspaces</span></div>
+                <p class="footer-description">Transform your workspace delivery with secure, high-performance streaming. Container-native architecture built for the modern workforce.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4>Platform</h4>
+                <ul class="footer-links">
+                    <li><a href="platform.html">Overview</a></li>
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="security.html">Security</a></li>
+                    <li><a href="#architecture">Architecture</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Industries</h4>
+                <ul class="footer-links">
+                    <li><a href="industries.html#financial">Financial Services</a></li>
+                    <li><a href="industries.html#education">Education</a></li>
+                    <li><a href="industries.html#healthcare">Healthcare</a></li>
+                    <li><a href="industries.html#government">Government</a></li>
+                    <li><a href="industries.html#manufacturing">Manufacturing</a></li>
+                    <li><a href="industries.html#energy">Energy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4>Resources</h4>
+                <ul class="footer-links">
+                    <li><a href="resources.html">Documentation</a></li>
+                    <li><a href="resources.html#case-studies">Case Studies</a></li>
+                    <li><a href="resources.html#whitepapers">Whitepapers</a></li>
+                    <li><a href="resources.html#webinars">Webinars</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Skylus Workspaces. All rights reserved. Container-native. Zero-Trust secure.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top">↑</button>
+
+    <noscript>
+        <style>
+            .page-loader { display: none !important; }
+            body.loading { overflow: auto !important; }
+        </style>
+        <div style="padding: 20px; text-align: center; background: #fff3cd; color: #856404; margin: 20px;">
+            JavaScript is required for the best experience. Please enable JavaScript in your browser.
+        </div>
+    </noscript>
+
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>

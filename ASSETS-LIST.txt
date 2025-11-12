@@ -1,0 +1,235 @@
+SKYLUS WORKSPACES - COMPLETE ASSET LIST
+========================================
+
+This file lists ALL image and video placeholders used throughout the website.
+Simply name your assets exactly as shown below and place them in the specified folders.
+
+========================================
+IMAGES - BY FOLDER
+========================================
+
+📁 assets/images/hero/
+------------------------
+hero-workspace-streaming.png        (1920 x 1080) - Main hero image
+hero-poster.jpg                     (1920 x 1080) - Video poster image
+
+📁 assets/images/platform/
+--------------------------
+container-architecture.png          (1200 x 800)  - Container architecture diagram
+skylus-architecture-diagram.png     (1600 x 1000) - Main architecture diagram
+architecture-diagram-detailed.png   (1600 x 1000) - Detailed architecture
+
+📁 assets/images/solutions/
+---------------------------
+cloud-desktops-preview.png          (800 x 600)   - Cloud desktops card preview
+browser-isolation-preview.png       (800 x 600)   - Browser isolation card preview
+app-streaming-preview.png           (800 x 600)   - App streaming card preview
+secure-access-preview.png           (800 x 600)   - Secure access card preview
+solution-cloud-desktops.png         (1200 x 900)  - Cloud desktops detail image
+solution-browser-isolation.png      (1200 x 900)  - Browser isolation detail image
+solution-app-streaming.png          (1200 x 900)  - App streaming detail image
+solution-secure-access.png          (1200 x 900)  - Secure access detail image
+
+📁 assets/images/security/
+--------------------------
+zero-trust-architecture.png         (1400 x 1000) - Zero-trust diagram
+security-architecture-diagram.png   (1600 x 1000) - Security architecture
+
+📁 assets/images/industries/
+----------------------------
+financial-services.jpg              (800 x 600)   - Financial services card
+education.jpg                       (800 x 600)   - Education card
+healthcare.jpg                      (800 x 600)   - Healthcare card
+government.jpg                      (800 x 600)   - Government card
+manufacturing.jpg                   (800 x 600)   - Manufacturing card
+energy.jpg                          (800 x 600)   - Energy card
+financial-services-detail.jpg       (1000 x 750)  - Financial services detail
+education-detail.jpg                (1000 x 750)  - Education detail
+healthcare-detail.jpg               (1000 x 750)  - Healthcare detail
+government-detail.jpg               (1000 x 750)  - Government detail
+manufacturing-detail.jpg            (1000 x 750)  - Manufacturing detail
+energy-detail.jpg                   (1000 x 750)  - Energy detail
+
+📁 assets/images/resources/
+---------------------------
+complete-buyers-guide.jpg           (800 x 600)   - Buyer's guide thumbnail
+technical-documentation.jpg         (800 x 600)   - Documentation thumbnail
+product-datasheet.jpg               (800 x 600)   - Datasheet thumbnail
+zero-trust-whitepaper.jpg           (700 x 500)   - Whitepaper thumbnail
+container-vs-vm-whitepaper.jpg      (700 x 500)   - Whitepaper thumbnail
+browser-isolation-whitepaper.jpg    (700 x 500)   - Whitepaper thumbnail
+financial-case-study.jpg            (800 x 600)   - Case study thumbnail
+education-case-study.jpg            (800 x 600)   - Case study thumbnail
+healthcare-case-study.jpg           (800 x 600)   - Case study thumbnail
+
+📁 assets/images/logos/
+-----------------------
+client-logo-1.png                   (400 x 200)   - Client logo
+client-logo-2.png                   (400 x 200)   - Client logo
+client-logo-3.png                   (400 x 200)   - Client logo
+client-logo-4.png                   (400 x 200)   - Client logo
+client-logo-5.png                   (400 x 200)   - Client logo
+client-logo-6.png                   (400 x 200)   - Client logo
+
+📁 assets/images/testimonials/
+------------------------------
+(Optional - testimonials use text initials by default)
+
+📁 assets/images/backgrounds/
+-----------------------------
+(Optional - can add background patterns or textures)
+
+
+========================================
+VIDEOS - BY FOLDER
+========================================
+
+📁 assets/videos/
+-----------------
+
+HERO & OVERVIEW:
+hero-background.mp4                 (1920 x 1080) - Hero background video (looping)
+product-demo.mp4                    (1920 x 1080) - Main product demo
+platform-overview.mp4               (1920 x 1080) - Platform overview video
+
+SOLUTIONS DEMOS:
+cloud-desktops-demo.mp4             (1920 x 1080) - Cloud desktops demo
+browser-isolation-demo.mp4          (1920 x 1080) - Browser isolation demo
+app-streaming-demo.mp4              (1920 x 1080) - App streaming demo
+secure-access-demo.mp4              (1920 x 1080) - Secure access demo
+
+WEBINARS:
+webinar-zero-trust.mp4              (1920 x 1080) - Zero-trust webinar
+webinar-migration.mp4               (1920 x 1080) - Migration webinar
+webinar-browser-isolation.mp4       (1920 x 1080) - Browser isolation webinar
+
+
+========================================
+TOTAL ASSET COUNT
+========================================
+
+Images:  46 placeholders
+Videos:  10 placeholders
+Total:   56 assets
+
+
+========================================
+QUICK TIPS
+========================================
+
+1. NAMING: Names are case-sensitive. Use exact names as shown.
+
+2. FORMATS:
+   - Images: PNG, JPG, or JPEG
+   - Videos: MP4 (H.264 codec recommended)
+
+3. SIZES: Dimensions shown are recommended. Maintain aspect ratios.
+
+4. OPTIMIZATION:
+   - Compress images to reduce file size
+   - Keep videos under 10MB when possible
+   - Use progressive JPEGs for faster loading
+
+5. FALLBACKS:
+   - Site works without images/videos (shows placeholders)
+   - Add assets as you create them
+   - Placeholders clearly labeled
+
+6. BATCH RENAMING:
+   - If you have existing assets, batch rename them
+   - Many tools available for bulk file renaming
+
+
+========================================
+PLACEHOLDER BEHAVIOR
+========================================
+
+Current placeholder style:
+- Background: Light gradient
+- Text: Asset filename displayed
+- Border: Dashed outline
+- Interactive: Hover effects included
+
+This makes it VERY clear which images need to be replaced!
+
+
+========================================
+REPLACEMENT WORKFLOW
+========================================
+
+1. Create/gather your images and videos
+2. Rename them to match the names above
+3. Place in the correct folders
+4. Refresh your browser
+5. Assets will automatically display!
+
+No code changes needed!
+
+
+========================================
+FREE IMAGE RESOURCES
+========================================
+
+If you need stock images:
+- Unsplash.com
+- Pexels.com
+- Pixabay.com
+- Freepik.com (some free)
+
+For icons and graphics:
+- Flaticon.com
+- Icons8.com
+- Iconfinder.com
+
+
+========================================
+PRIORITY ASSETS
+========================================
+
+Start with these for maximum impact:
+
+HIGH PRIORITY:
+1. hero-workspace-streaming.png (main hero image)
+2. client-logo-1 through 6 (trust indicators)
+3. All *-detail.jpg images (industry pages)
+4. solution-*.png images (solutions page)
+
+MEDIUM PRIORITY:
+5. All preview images
+6. Whitepaper thumbnails
+7. Case study thumbnails
+
+LOW PRIORITY (OPTIONAL):
+8. Background videos (site works great with placeholders)
+9. Demo videos (can add later)
+10. Webinar videos (optional content)
+
+
+========================================
+CUSTOMIZATION NOTE
+========================================
+
+You can:
+- Use different dimensions (maintain aspect ratio)
+- Add more assets beyond this list
+- Create custom placeholder styling in CSS
+- Add image captions or overlays
+
+
+========================================
+SUPPORT
+========================================
+
+All assets are plug-and-play!
+Simply add your files and refresh.
+
+The website is designed to work perfectly
+even with placeholder images visible.
+
+
+========================================
+
+Last Updated: November 2025
+Website Version: 1.0
+Total Pages: 7
+Total Assets: 56
