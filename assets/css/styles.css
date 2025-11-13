@@ -2,6 +2,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+a, button, .btn-primary, .btn-secondary, .btn-outline-light {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+img, video {
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 :root {
@@ -156,6 +165,9 @@ body.loading {
     text-decoration: none;
     letter-spacing: -0.5px;
     transition: transform var(--transition-base);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 }
 
 .logo:hover {
@@ -164,6 +176,16 @@ body.loading {
 
 .logo span {
     color: var(--accent-color);
+}
+
+.logo-image {
+    height: 40px;
+    width: auto;
+    transition: transform var(--transition-base);
+}
+
+.logo:hover .logo-image {
+    transform: scale(1.1);
 }
 
 .nav-menu {
@@ -429,6 +451,52 @@ body.loading {
     width: 100%;
     border-radius: 12px;
     box-shadow: var(--shadow-xl);
+}
+
+.hero-demo-video {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: var(--shadow-xl);
+    transition: transform var(--transition-slow), box-shadow var(--transition-slow);
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.hero-demo-video:hover {
+    transform: scale(1.01);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.3);
+}
+
+/* Custom video controls styling */
+.hero-demo-video::-webkit-media-controls-panel {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    border-radius: 0 0 12px 12px;
+}
+
+.hero-demo-video::-webkit-media-controls-play-button,
+.hero-demo-video::-webkit-media-controls-timeline,
+.hero-demo-video::-webkit-media-controls-current-time-display,
+.hero-demo-video::-webkit-media-controls-time-remaining-display,
+.hero-demo-video::-webkit-media-controls-mute-button,
+.hero-demo-video::-webkit-media-controls-volume-slider,
+.hero-demo-video::-webkit-media-controls-fullscreen-button {
+    filter: brightness(1.2);
+}
+
+.hero-demo-video::-webkit-media-controls-timeline {
+    border-radius: 4px;
+}
+
+/* Firefox video controls */
+.hero-demo-video::-moz-media-controls {
+    opacity: 0.9;
+}
+
+/* Show controls on hover */
+.hero-demo-video {
+    cursor: pointer;
 }
 
 .placeholder-image,
